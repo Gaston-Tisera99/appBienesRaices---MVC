@@ -1,0 +1,20 @@
+{
+    "name": "marina/bienes-raices-php_fin",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "gaston tisera",
+            "email": "gastontisera94@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
